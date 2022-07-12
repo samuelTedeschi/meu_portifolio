@@ -1,0 +1,160 @@
+
+body{
+    display: flex;
+}
+
+
+.nome{
+    border: solid 1px black;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 348px;
+    height: 292px;
+}
+
+.nome img {
+    height: 128px;
+    width: 128px;
+    margin-top: 32px;
+}
+
+.nome h3{
+    text-align: center;
+    margin-top: 30px;
+}
+.nome p {
+    text-align: center;
+}
+
+.links{
+    border: solid 1px black;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 348px;
+    height: 348px;
+}
+
+.local{
+    margin-top: 34px;
+    display: flex;
+}
+.local img {
+    margin-left: 40px;
+    width: 24px;
+    height: 24px;
+}
+.local p {
+    margin-left: 20px;
+    
+}
+
+.school{
+    display: flex;
+}
+.school img{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 24px;
+    height: 24px;
+}
+.school p {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.github{
+    display: flex;
+}
+.github img{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 24px;
+    height: 24px;
+}
+.github p {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.linkedin{
+    display: flex;
+}
+.linkedin img{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 24px;
+    height: 24px;
+}
+.linkedin p {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.email{
+    display: flex;
+}
+.email img{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 24px;
+    height: 24px;
+}
+.email p {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.tecnologias{
+    border: solid 1px black;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 348px;
+    height: 208px;
+}
+
+.tecnologias h3{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.btns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.btns input{
+    border: 1px solid black;
+    border-radius: 8px;
+    background: whitesmoke;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 88px;
+    height: 26px;
+}
+
+.meus-projetos{
+    border: solid 1px black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 952px;
+    height: 86px;       
+}
+
+.meus-projetos p {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.meus-projetos a{
+    margin-right: 30px;
+    margin-top: 30px;
+}
