@@ -1,13 +1,13 @@
 
 body{
     display: flex;
-    background-image: linear-gradient(white, gray);
+    background-image: linear-gradient(#262626, #595959);
 }
 
 
 .nome{
-    background-color: aliceblue;
-    border: solid 1px black;
+    background-color: #595959;
+    border: solid 1px #595959;
     border-radius: 20px;
     box-shadow: 10px 10px 10px #0d0d0d;
     margin-top: 40px;
@@ -25,14 +25,17 @@ body{
 .nome h3{
     text-align: center;
     margin-top: 30px;
+    color: #F2F2F2;
 }
 .nome p {
     text-align: center;
+    color: #A0BF30;
 }
 
 .links{
-    background-color: aliceblue;
-    border: solid 1px black;
+    background-color: #595959;
+    color: #F2F2F2;
+    border: solid 1px #595959;
     border-radius: 20px;
     box-shadow: 10px 10px 10px #0d0d0d;
     margin-left: 40px;
@@ -112,8 +115,8 @@ body{
 }
 
 .tecnologias{
-    background-color: aliceblue;
-    border: solid 1px black;
+    background-color: #595959;
+    border: solid 1px #595959;
     border-radius: 20px;
     box-shadow: 10px 10px 10px #0d0d0d;
     margin-left: 40px;
@@ -123,6 +126,7 @@ body{
 }
 
 .tecnologias h3{
+    color: #F2F2F2;
     margin-top: 30px;
     margin-left: 20px;
 }
@@ -136,9 +140,9 @@ body{
 }
 
 .btns input{
-    border: 1px solid black;
+    border: 1px solid #9CA656;
     border-radius: 8px;
-    background: whitesmoke;
+    background: #9CA656;
     margin-right: 15px;
     margin-bottom: 15px;
     width: 88px;
@@ -146,8 +150,8 @@ body{
 }
 
 .meus-projetos{
-    background-color: aliceblue;
-    border: solid 1px black;
+    background-color: #595959;
+    border: solid 1px #595959;
     border-radius: 20px;
     box-shadow: 10px 10px 10px #0d0d0d;
     display: flex;
@@ -161,6 +165,8 @@ body{
 .meus-projetos p {
     margin-left: 30px;
     margin-top: 30px;
+    color: #F2F2F2;
+    font-size: 1.3rem
 }
 
 .meus-projetos a{
@@ -176,12 +182,38 @@ body{
 }
 
 .codigo{
-    background-color: aliceblue;
-    border: solid 1px black;
+    background-color: #595959;
+    border: solid 1px #595959;
     border-radius: 20px;
     box-shadow: 10px 10px 10px #0d0d0d;
     Width:461px;
     Height:186px;
     margin-right: 30px;
     margin-top: 30px;
+}
+
+.codigo p {
+    margin-left: 30px;
+    margin-right: 10px;
+    color: #F2F2F2;
+}
+
+
+
+.titulo-cod{
+    display: flex;
+}
+
+.titulo-cod img {
+    margin-left: 30px;
+    margin-top: 31px;
+    height: 20px;
+    width: 20px;
+}
+
+.titulo-cod p {
+    margin-left: 16px;
+    margin-top: 30px;
+    font-size: 16px;
+    color: #A0BF30;
 }
